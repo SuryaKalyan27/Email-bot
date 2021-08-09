@@ -11,5 +11,3 @@ print(df)
 Email_list = df['Name'].tolist()
 Email_Addr = df['email'].tolist()
 
-print(Email_Addr)
-print(Email_list)

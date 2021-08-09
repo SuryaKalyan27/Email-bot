@@ -28,6 +28,7 @@ p.add_header('Content-Disposition', "attachment; filename= %s" % filename)
 the_msg.attach(p)
 the_msg.attach(text1)
 
+#SERVER CONFIG FOR SENDER USING GMAIL 
 server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
 #LOGIN WITH YOU CREDENTIALS
 server.login("SENDER EMAIL ADDRESS", "EMAIL_PASSWORD")
